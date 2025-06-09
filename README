@@ -1,18 +1,16 @@
-Breast Cancer Classification – Comparative Machine Learning Models
+# Breast Cancer Classification – Comparative Machine Learning Models
 
 This project compares the performance of seven supervised machine learning algorithms for breast cancer diagnosis. It uses the Breast Cancer Wisconsin (Diagnostic) Dataset and evaluates each model's accuracy, precision, and recall to identify the most suitable approach for classification.
 
 
-Project Structure
+## Project Structure
 breast_cancer_models.ipynb
 Jupyter Notebook with full code
 requirements.txt # Python dependencies
  README.md # Project documentation
 
-Models Used
-
+## Models Used
 The following machine learning models were trained and evaluated:
-
 1. Naive Bayes (GaussianNB)
 2. k-Nearest Neighbors (KNN)
 3. Decision Tree
@@ -21,34 +19,28 @@ The following machine learning models were trained and evaluated:
 6. Logistic Regression
 7. Multi-layer Perceptron (ANN)
 
-Data Preprocessing
-
+## Data Preprocessing
 - Dataset: Breast Cancer Wisconsin (Diagnostic) from sklearn.datasets
 - Missing value check
 - Feature scaling using MinMaxScaler
 - Train-test split (80/20)
 
-Evaluation Metrics
-
+## Evaluation Metrics
 To fairly compare the models, the following metrics were calculated and visualized using bar charts:
-
 - Accuracy
 - Precision
 - Recall
 
-Results Summary
-
+## Results Summary
 A comparative bar chart was used to show the performance of all models across the above metrics. This provides a clear understanding of which model performed best in this binary classification task.
 
-Technologies Used
-
+## Technologies Used
 - Python 3.x
 - scikit-learn
 - matplotlib
 - Jupyter Notebook
 
-How to Run
-
+## How to Run
 1.	Clone the repo:
        bash
        git clone https://github.com/maryamkhosravii/mlmodels.git
@@ -61,10 +53,9 @@ How to Run
 4.	Open the Jupyter Notebook:
        jupyter notebook
 
- Author
-github.com/maryamkhosravii
- License
-This project is open source and free to use for educational purposes.
+## Author
+Made with ❤️ by Maryam Khosravi
+GitHub: https://github.com/maryamkhosravii
 
 
 
